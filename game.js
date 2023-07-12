@@ -6,7 +6,7 @@ function checkGuess() {
 	
 	var resultMessage = document.getElementById('result-message');
 	if (guess === secretNumber) {
-		resultMessage.textContent = "Congratulations! YOu guessed the number.";
+		resultMessage.textContent = "Congratulations! You guessed the number.";
 	} else if (guess < secretNumber) {
 		resultMessage.textContent = "Too low! Try again.";
 	} else {
